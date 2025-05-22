@@ -1,0 +1,80 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+    padding: 10px;
+}
+
+header img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+h3,
+figcaption {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+
+figure img {
+    width: 35%;
+    float: left;
+    margin: 20px auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+main {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+hr {
+    color: white;
+}
+
+article img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (width <=700px) {
+
+    figure img {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    p {
+        float: none;
+        width: 100%;
+
+
+    }
+
+    h3 {
+        font-size: 0.6em;
+    }
+}
